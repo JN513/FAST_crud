@@ -1,0 +1,7 @@
+.dockerignore
+Dockerfile
+Dockerfile.prod
+venv/
+.venv/
+.gitignore
+.git
