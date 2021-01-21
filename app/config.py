@@ -5,12 +5,15 @@ from pydantic import BaseSettings
 
 log = logging.getLogger("uvicorn")
 
+
 class Settings(BaseSettings):
     """
     docstring
     """
+
     environment: str = os.getenv("ENVIRONMENT", "dev")
     testing: bool = os.getenv("TESTING", 0)
+
 
 def get_settings() -> BaseSettings:
     log.info("Loading config Settings from the environment...")
