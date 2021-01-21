@@ -19,3 +19,4 @@ typing-extensions==3.7.4.3
 uvicorn==0.13.3
 aerich
 pytest
+requests
