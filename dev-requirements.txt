@@ -21,3 +21,4 @@ uvicorn==0.13.3
 aerich
 pytest
 requests
+aiomysql
